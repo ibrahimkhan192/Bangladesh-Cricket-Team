@@ -15,6 +15,51 @@ main{
  align-items: center;
 }
 
+header{
+  height: 100px;
+ background-color: #275C21;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+
+}
+
+nav .logo div img{
+  width: 80px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo h3{
+  color: white;
+  font-size: 25px;
+  font-weight: 550;
+  margin-left: 15px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu-items{
+  margin-right: 40px;
+}
+.flag img{
+  border-radius: 100%;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
 .container{
  width: 900px;
  background: #FFFFFF;
@@ -95,7 +140,7 @@ font-size: 20px;
 .courses{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-column-gap: 26px;
+   grid-column-gap: 20px;
 }
   .course-banner img{
     width: 250px;
@@ -107,7 +152,7 @@ font-size: 20px;
   }
 
   .course-duration{
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .fa-star.filled{
@@ -126,9 +171,12 @@ font-size: 20px;
 }
 
 .course-duration{
-  padding: 3px 5px;
+  padding: 3px 8px;
   background: #FFE4E8;
-border-radius: 14.6913px;
+  border-radius: 14.6913px;
+}
+.course-duration span{
+  font-size: 13px;
 }
 
 .last{
