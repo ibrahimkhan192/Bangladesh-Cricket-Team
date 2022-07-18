@@ -17,7 +17,8 @@ main{
 
 header{
   height: 100px;
- background-color: #275C21;
+ /* background-color: #275C21; */
+ background: #002d2e;
 }
 
 nav{
@@ -61,7 +62,7 @@ nav .logo div img{
 }
 
 .container{
- width: 900px;
+ width: 1000px;
  background: #FFFFFF;
  border-radius: 5px;
  padding: 30px;
@@ -143,7 +144,7 @@ font-size: 20px;
    grid-column-gap: 20px;
 }
   .course-banner img{
-    width: 250px;
+    width: 100%;
   }
 
   .course-info{
@@ -185,6 +186,10 @@ font-size: 20px;
     padding: 15px;
     border-radius: 20px;
     justify-content: center;
+}
+
+.courses-1{
+  margin-top: 40px;
 }
 
 .course-duration{
