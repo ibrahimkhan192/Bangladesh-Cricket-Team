@@ -68,7 +68,7 @@ nav .logo div img{
  margin-top: 40px;
 }
 .section-title{
- color: #562EFF;
+ color: #009833;
  font-weight: 700;
  font-size: 24px;
 }
@@ -154,9 +154,26 @@ font-size: 20px;
   .course-duration{
     margin-left: 10px;
   }
+.fa-solid{
+  font-size: 20px;
+}
+  .fa-heart{
+    color:red;
+  }
+  .fa-thumbs-up{
+    color: #007aff;
+  }
 
-  .fa-star.filled{
+  .fa-face-grin-hearts{
+    background:red ;
     color: #FFC014;
+    border-radius: 100%;
+  }
+
+  .fa-solid.fa-face-angry{
+    background: black;
+    color: #FFC014;
+    border-radius: 100%;
   }
   .fa-star.empty{
     color: #AEAEAE;
@@ -177,6 +194,10 @@ font-size: 20px;
 }
 .course-duration span{
   font-size: 13px;
+}
+.course-details p{
+  color: #009833;
+  text-transform: uppercase;
 }
 
 .last{
