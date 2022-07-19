@@ -222,6 +222,12 @@ font-size: 20px;
       .player, .blog-items, .course{
        flex-direction: column;
       }
+      .menu{
+        display: none;
+      }
+      .logo h3{
+        font-size: 18px;
+      }
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
@@ -234,6 +240,9 @@ font-size: 20px;
       }
       .player, .course{
        flex-direction: column;
+      }
+      .menu{
+        display: none;
       }
 }
 
